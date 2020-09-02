@@ -86,6 +86,6 @@ class FileController extends Controller
     {
         $post = File::find($id);
         $post->delete();
-        return ['msg' => 'success'];
+        return response()->json(['msg' => 'success']);
     }
 }

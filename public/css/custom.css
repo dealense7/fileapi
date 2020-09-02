@@ -91,3 +91,23 @@ body{
 .btn-modal:hover{
     color: #fff;
 }
+/* Post */
+.post{
+    background-color: #fff;
+    margin-top: 10px !important;
+    padding: 14px;
+    font-family: medium;
+    font-size: 0.8rem;
+    color: #8b8b8b;
+}
+.post:nth-child(1){
+    color: #1e2538 !important;
+    font-family: bold !important;
+    -webkit-font-feature-settings: 'case' on;
+    font-feature-settings: 'case' on;
+    font-size: 0.7rem;
+}
+.post > div{
+    display: flex;
+    align-items: center;
+}
