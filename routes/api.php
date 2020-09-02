@@ -16,15 +16,13 @@ use Illuminate\Support\Facades\Route;
 
 // CRUD API of Files for Insite Example
 
-//Store a single (POST) /api/file
-
-//Get all (GET) /api/files
-
-//Get a single (GET) /api/file/{id}
-
-//Update a single (PUT) /api/file/{id}
-
-//Delete (DELETE) /api/file/{id}
+//Store a single | POST | api/files 
+//Get all | GET|HEAD | api/files
+//Get a single | GET|HEAD | api/files/{id}
+//Update a single | PUT|PATCH | api/files/{id} 
+//Edit a single | GET|HEAD | api/files/{file}/edit
+//Delete | DELETE | api/files/{file}
+Route::apiResource('/files', 'FileController');
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();

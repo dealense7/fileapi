@@ -22,14 +22,15 @@ body{
 .btn:focus{
     box-shadow: none !important;
 }
-.centered{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -100px;
+/*Nav*/
+.navbar-brand{
+    font-family: bolder;
+    -webkit-font-feature-settings: 'case' on;
+    font-feature-settings: 'case' on;
+    color: #1e2538 !important;
+    font-size: 1rem;
 }
-/*Login*/
+/*Form*/
 .forma-bg{
     height: 140px;
     width: 100%;
@@ -53,6 +54,7 @@ body{
     height: 43px;
     font-family: normal;
     font-size: 0.77rem;
+    margin-top: 10px;
 }
 .forma input:focus{
     box-shadow: none;

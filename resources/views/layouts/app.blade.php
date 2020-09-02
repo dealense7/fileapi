@@ -23,8 +23,13 @@
 <body>
   
     <div id="app" class="container py-3">
-
-
+        <nav class="navbar navbar-light bg-white">
+            <a class="navbar-brand" href="#">API გადაგზავნა</a>
+            <button class="btn btn-modal m-0" data-toggle="modal" data-target="#exampleModal">
+                      დამატება
+            </button>
+        
+          </nav>
         <main class="py-4">
             @yield('content')
         </main>
