@@ -1,0 +1,91 @@
+/*Fonts*/
+@font-face{
+    font-family: bolder;
+    src: url("../fonts/FiraGO-Heavy.ttf");
+}
+@font-face{
+    font-family: bold;
+    src: url("../fonts/FiraGO-Bold.ttf");
+}
+@font-face{
+    font-family: medium;
+    src: url("../fonts/FiraGO-Medium.ttf");
+}
+@font-face{
+    font-family: normal;
+    src: url("../fonts/FiraGO-Regular.ttf");
+}
+/*Main*/
+body{
+    background-color: #f2f3f6;
+}
+.btn:focus{
+    box-shadow: none !important;
+}
+.centered{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+}
+/*Login*/
+.forma-bg{
+    height: 140px;
+    width: 100%;
+    border-radius: 3px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.forma h4{
+    font-family: bolder;
+    font-size: 1.1rem;
+    color: #1e2538;
+    -webkit-font-feature-settings: 'case' on;
+    font-feature-settings: 'case' on;
+}
+.forma p{
+    font-family: normal;
+    font-size: 0.73rem;
+    color: #919191;
+}
+.forma input{
+    height: 43px;
+    font-family: normal;
+    font-size: 0.77rem;
+}
+.forma input:focus{
+    box-shadow: none;
+}
+.forma input:last-of-type{
+    margin-top: 10px;
+}
+.btn-imagechoose{
+    
+    background-color: #2e64f9;
+}
+.btn-getfile{
+    background-color: #fff !important;
+    color: #6c757d !important;
+    border: 1px solid rgb(149, 150, 151);
+}
+.btn-modal{
+    background-color: #2e64f9;
+    color: #fff;
+    -webkit-font-feature-settings: 'case' on;
+    font-feature-settings: 'case' on;
+    height: 37px;
+    font-family: bold;
+    font-size: 0.73rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn-getfile:hover{
+    color: #fff !important;
+    background-color: #5e5d5d !important;
+}
+.btn-modal:hover{
+    color: #fff;
+}
